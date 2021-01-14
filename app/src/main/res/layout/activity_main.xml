@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ShareActivityMainActivity"
+    android:gravity="center"
+    android:background="#f6546a">
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:src="@drawable/ic_launcher_background"/>
+
+    <TextView
+        android:text="Hii"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:typeface="serif"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Share it"
+        android:textSize="20sp"
+        android:id="@+id/shareit"
+        android:textColor="#ffffff"
+        android:background="#20b2aa"
+        android:layout_marginTop="40dp"
+        android:typeface="serif"/>
+
+
+
+</LinearLayout>
